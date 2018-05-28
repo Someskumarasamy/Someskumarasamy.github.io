@@ -8,7 +8,7 @@
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
     <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300'>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
     <style>
         @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|VT323');
         body {
@@ -66,53 +66,51 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script defer async>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0&appId=2054298928173175&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <div class="wrap">
 
-    <div class="headding center-block text-center">
-        <h1>Socialize</h1>
-        <br>
-        <div class="icons center-block">
-            <a href="https://www.facebook.com/Somes-Kumar-1026206204202380/"target="_blank">
-                <span class="fa fa-facebook fa-2x"></span>
-            </a>
-            <a href="">
-                <span class="fa fa-twitter fa-2x"></span>
-            </a>
-            <a href="">
-                <span class="fa fa-youtube fa-2x"></span>
-            </a>
-            <a href="">
-                <span class="fa fa-dropbox fa-2x"></span>
-            </a>
-            <a href="">
-                <span class="fa fa-wordpress fa-2x"></span>
-            </a>
-            <a href="">
-                <span class="fa fa-instagram fa-2x"></span>
-            </a>
+        <div id="slider">
+            <div id="arrow-left" class="arrow"></div>
+            <div class="slide">
 
-            <a href="">
-                <span class="fa fa-pinterest fa-2x"></span>
-            </a>
-            <a href="https://www.linkedin.com/in/somes-kumar-k/"target="_blank">
-                <span class="fa fa-linkedin fa-2x"></span>
-            </a>
-            <a href="">
-                <span class="fa fa-whatsapp fa-2x"></span>
-            </a>
+                <div class="slide-content">
+                    <div class="box">
+                        <div class="words">
+                            <h2>Comments</h2>
+                            <div class="fb-comments" data-href="https://someskumarasamy.github.io/social.html" data-numposts="5"></div>
+                        </div>
+                    </div>
 
-            <a href="">
-                <span class="fa fa-google-plus fa-2x"></span>
-            </a>
-            <a href="">
-                <span class="fa fa-skype fa-2x"></span>
-            </a>
+                </div>
+            </div>
+            <div class="slide">
 
-            <br>
-            <br>
+                <div class="slide-content">
+                    <div class="box">
 
-            <br>
-            <br>
+                        <div class="imgbox">
+                            <h2>Resume</h2>
+                        </div>
+                        <div class="words">
+                            
+                        <img src="somes.jpg" alt="resume">
+                        </div>
+                        <!-- <div class="imgbox"><img src="./images/cover.png"></div>-->
+                    </div>
+
+                </div>
+            </div>
+           
+            <div id="arrow-right" class="arrow"></div>
         </div>
+        <script src="./js/slider.js"></script>
 
 
 

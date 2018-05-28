@@ -13,14 +13,13 @@
 <body>
     <div class="desktop">
         <ul class="menu">
-            <li class="item head"><h2>explore</h2></li>
             <li class="item about"><h2>about-me</h2></li>
             <li class="item projects"><h2>projects</h2></li>
             <li class="item edu"><h2>Education</h2></li>
             <li class="item techskill"><h2>Skills</h2></li>
             <li class="item blog"><h2>Blogger</h2></li>
-            
-            <li class="item fb"><h2>Connect</h2></li>
+            <li class="item fb"><h2>More</h2></li>
+           <li class="item home"><a href="index.html"> <h2>Back</h2></a></li>
         </ul>
         <div class="screen">
             <iframe src="simple.html"></iframe>
@@ -33,7 +32,7 @@
         $(".screen").html("<iframe src='simple.html' scrolling='no' allowfullscreen></iframe>");  
         });
         $(".about").click(function(){
-        $(".screen").html("<iframe src='about.html' scrolling='yes'></iframe>");  
+        $(".screen").html("<iframe src='about.html' scrolling='no'></iframe>");  
         });
         $(".projects").click(function(){
         $(".screen").html("<iframe src='projects.html'></iframe>");  
@@ -49,13 +48,14 @@
         });
         $(".fb").click(function(){
         $(".screen").html("<iframe src='social.html'></iframe>");  
+
         });
        
 });
 
 </script>
 <!-- Start of Async Drift Code -->
-<script>
+<script async>
         "use strict";
         
         !function() {
