@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|VT323');
+html,body{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    background-color:black;  
+}
+.desktop{
+    display: grid;
+    grid-template-rows:1fr;
+    grid-template-columns: 1fr 3fr; 
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.menu{
+    grid-row: 1;
+    grid-column: 1;
+    margin: 0;
+    padding: 0;
+    display:inline-block;
+    width: 100%;
+    background-color:black;
+    position: relative;
+    height: 100%;
+    overflow: auto;
+    list-style: none;
+    /*-----------------txt-----*/
+    color: wheat;
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: .5cm;
+    text-transform: uppercase;
+}
+.item{
+    display: inline-block;
+    width: 70%;
+    border: solid 1px wheat;
+    position: relative;
+    margin: 10px;
+}
+.item:hover{
+    background-color: wheat;
+    border:none;
+    color:black;
+    font-size: .7cm;
+    text-decoration: underline;
+}
+.screen{
+    grid-row: 1;
+    grid-column: 2;
+    border: solid 2px wheat;
+}
+iframe{
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width:100%;
+    overflow: hidden;
+}
+::-webkit-scrollbar{
+    width:1px;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/

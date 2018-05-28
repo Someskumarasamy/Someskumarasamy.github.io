@@ -1,0 +1,87 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/portfolio.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="desktop">
+        <ul class="menu">
+            <li class="item head"><h2>explore</h2></li>
+            <li class="item about"><h2>about-me</h2></li>
+            <li class="item projects"><h2>projects</h2></li>
+            <li class="item edu"><h2>Education</h2></li>
+            <li class="item techskill"><h2>Skills</h2></li>
+            <li class="item blog"><h2>Blogger</h2></li>
+            
+            <li class="item fb"><h2>Connect</h2></li>
+        </ul>
+        <div class="screen">
+            <iframe src="simple.html"></iframe>
+        </div>
+ 
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".head").click(function(){
+        $(".screen").html("<iframe src='simple.html' scrolling='no' allowfullscreen></iframe>");  
+        });
+        $(".about").click(function(){
+        $(".screen").html("<iframe src='about.html' scrolling='yes'></iframe>");  
+        });
+        $(".projects").click(function(){
+        $(".screen").html("<iframe src='projects.html'></iframe>");  
+        });
+        $(".edu").click(function(){
+        $(".screen").html("<iframe src='education.html'></iframe>");  
+        });
+        $(".techskill").click(function(){
+        $(".screen").html("<iframe src='skills.html'></iframe>");  
+        });
+        $(".blog").click(function(){
+        $(".screen").html("<iframe src='https://someskumarasamy.blogspot.in'></iframe>");  
+        });
+        $(".fb").click(function(){
+        $(".screen").html("<iframe src='social.html'></iframe>");  
+        });
+       
+});
+
+</script>
+<!-- Start of Async Drift Code -->
+<script>
+        "use strict";
+        
+        !function() {
+          var t = window.driftt = window.drift = window.driftt || [];
+          if (!t.init) {
+            if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+            t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+            t.factory = function(e) {
+              return function() {
+                var n = Array.prototype.slice.call(arguments);
+                return n.unshift(e), t.push(n), t;
+              };
+            }, t.methods.forEach(function(e) {
+              t[e] = t.factory(e);
+            }), t.load = function(t) {
+              var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+              o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+              var i = document.getElementsByTagName("script")[0];
+              i.parentNode.insertBefore(o, i);
+            };
+          }
+        }();
+        drift.SNIPPET_VERSION = '0.3.1';
+        drift.load('paxydt3yuads');
+        </script>
+        <!-- End of Async Drift Code -->
+</body>
+
+</html>
