@@ -61,4 +61,13 @@ iframe{
 ::-webkit-scrollbar{
     width:1px;
 }
+a:link, a:visited {
+    text-decoration: none;
+    color: wheat;
+}
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
 /*---------------------------------------------------------------------------------------------------------------------*/
