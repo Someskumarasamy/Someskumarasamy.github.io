@@ -50,9 +50,9 @@ slideLeft();
 
 //Right Arrow click
 arrowRight.addEventListener('click', function(){
-if(current === sliderImages.length -1){
-    current = -1;
-}
+    if(current === sliderImages.length -1){
+        current = -1;
+    }
 slideRight();
 })
 
