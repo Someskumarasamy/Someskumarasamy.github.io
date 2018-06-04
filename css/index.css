@@ -1,31 +1,28 @@
 
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|VT323');
 
-/*---------------------------------------start----------------------------------------------------*/
+/*----------------------------------------------------start-------------------------------------------------------------*/
 
 /*auth: Somes Kumar K.*/
+/*----------------------------------------------------------------mobile-grid-------------------------------------------*/
 
-/*---------------------------------------------------desktop grid--------------------------------------------*/
-
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 600px) {
     body {
         display: flex;
         box-sizing: border-box;
         padding: 0;
-        border: solid 9px wheat;
         margin: 0;
         background-color: black;
-        flex: 1 1 80%;
         padding: 1% 1% 1% 1%;
         min-height: 100%;
-        max-width: 100%;
+        min-width: 100%;
         flex-wrap: wrap;
         align-items: center;
         /*vertical align*/
         justify-content: center;
     }
     .flexsec {
-        flex: 1 1 80%;
+        display: inline-block;
         padding: 1% 1% 1% 1%;
         min-height: 100%;
         max-width: 100%;
@@ -36,7 +33,7 @@
     }
     .wrapper {
         display: grid;
-        grid-template-columns: 8fr 3fr 1fr;
+        grid-template-columns: 1fr;
         grid-template-rows: 2fr;
         grid-gap: 5px;
         max-width: 100%;
@@ -47,118 +44,61 @@
     }
     .one {
         margin-top: 2%;
-        margin-left: 0%;
-        display: flex;
-        align-items: center;
-        /*vertical align*/
-        justify-content: center;
+        margin-right: 5%;
+        display: inline-flex;
         grid-column: 1;
         grid-row: 1;
-        position: relative;
-        flex-wrap: wrap;
-        align-items: center;
         /*vertical align*/
         justify-content: center;
+        /*horizontal-align*/
+        align-items: center;
+        position: relative;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin-bottom: 1%;
     }
     .four {
-        grid-column: 2;
-        grid-row: 1;
-        flex-wrap: wrap;
+        display: inline-flex;
+        grid-column: 1;
+        flex: auto;
+        grid-row: 2;
         position: relative;
         align-items: center;
         justify-content: center;
-        align-items: center;
-        /*vertical align*/
-        justify-content: center;
-        margin-bottom: 13%;
+        box-sizing:content-box;
+    }
+    .image {
+        margin-top: 10px;
+        position: relative;
+        height: 380px;
+        max-width: 380px;
     }
     .text-area {
-        margin-top: 18%;
-        margin-right: 2%;
+        display: inline-fex;
+        width: 100%;
+        align-self: center;
         font-family: 'Cabin Sketch', cursive;
         font-size: 0.5cm;
         background: transparent;
-        border-radius: 5px;
         color: wheat;
         text-align: center;
+        box-flex: initial;
+        padding-right:12%;
+        padding-left:15%;  
     }
-    .back p,
-    .front p {
-        position: relative;
-        bottom: 10px;
-        left: 0;
-        right: 0;
-        text-align: center;
-        font-family: 'Cabin Sketch', cursive;
-        font-size: 0.5cm;
+    .mobileclose{
+        display: none;
     }
-    .back-title {
-        margin-top: 20%;
-        text-align: center;
+    .item.talk{
+        display: none;
     }
-
-   
-    /*-----------------------------------------text-box-flipper---desktop------------------------*/
-
-.flip-container {
-    -webkit-perspective: 1000;
-    -moz-perspective: 1000;
-    -o-perspective: 1000;
-    perspective: 1000;
+    .back{
+        margin-top:5%; 
+    }
+     
 }
-
-.flip-container:hover .flipper,
-.flip-container.hover .flipper {
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-}
-
-.flip-container,
-.front,
-.back {
-    width: 320px;
-    height: 427px;
-}
-
-.flipper {
-    -webkit-transition: 0.6s;
-    -webkit-transform-style: preserve-3d;
-    -moz-transition: 0.6s;
-    -moz-transform-style: preserve-3d;
-    -o-transition: 0.6s;
-    -o-transform-style: preserve-3d;
-    transition: 0.6s;
-    transform-style: preserve-3d;
-    position: relative;
-	
-}
-
-.front,
-.back {
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden;
-    -o-backface-visibility: hidden;
-    backface-visibility: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.back {
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-    background: black;
-}
-
-}
-
-/*-------------------------------------------------mobile-grid**************************************/
-
-@media only screen and (max-width: 768px) {
+/*-------------------------------------------------------------Large Mobiles--------------------------------------------*/
+@media only screen and (min-width: 600px) {
     body {
         display: flex;
         box-sizing: border-box;
@@ -250,100 +190,359 @@
     }
      
 }
+/*--------------------------------------------------------------------tab-display--------------------------------------*/
 
-/*-----------------------------------------------------tab-display--------------------------------------*/
+@media only screen and (min-width: 768px) {
+     
+    body {
+        display: flex;
+        box-sizing: border-box;
+        border: solid 6px wheat;
+        padding: 0;
+        margin: 0;
+        background-color: black;
+        padding: 1% 1% 1% 1%;
+        min-height: 100%;
+        min-width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+        /*vertical align*/
+        justify-content: center;
+    }
+    .flexsec {
+        display: inline-block;
+        padding: 1% 1% 1% 1%;
+        min-height: 100%;
+        max-width: 100%;
+        background: transparent;
+        align-items: center;
+        /*vertical align*/
+        justify-content: center;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+        grid-gap: 5px;
+        max-width: 100%;
+        min-height: 100%;
+        align-items: center;
+        /*vertical align*/
+        justify-content: center;
+    }
+    .one {
+        margin-top: 2%;
+        margin-right: 5%;
+        display: inline-flex;
+        grid-column: 1;
+        grid-row: 1;
+        /*vertical align*/
+        justify-content: center;
+        /*horizontal-align*/
+        align-items: center;
+        position: relative;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin-bottom: 1%;
+    }
+    .four {
+        display: inline-flex;
+        grid-column: 1;
+        flex: auto;
+        grid-row: 2;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        box-sizing:content-box;
+    }
+    .image {
+        margin-top: 10px;
+        position: relative;
+        height: 380px;
+        max-width: 380px;
+    }
+    .text-area {
+        display: inline-fex;
+        width: 100%;
+        align-self: center;
+        font-family: 'Cabin Sketch', cursive;
+        font-size: 0.5cm;
+        background: transparent;
+        color: wheat;
+        text-align: center;
+        box-flex: initial;
+        padding-right:12%;
+        padding-left:12%;  
+    }
+    .mobileclose{
+        display: none;
+    }
+    .item.talk{
+        display: none;
+    }
+    .back{
+        margin-top:5%; 
+    }
+     
+}
+/*---------------------------------------------------------------desktop grid--------------------------------------------*/
 
-@media only screen and (min-width: 500px) {
-    @media only screen and (max-width: 768px) {
-        body {
-            display: flex;
-            box-sizing: border-box;
-            padding: 0;
-            border: solid 9px wheat;
-            margin: 0;
-            background-color: black;
-            padding: 1% 1% 1% 1%;
-            min-height: 100%;
-            max-width: 100%;
-            flex-wrap: wrap;
-            align-items: center;
-            /*vertical align*/
-            justify-content: center;
-        }
-        .flexsec {
-            padding: 1% 1% 1% 1%;
-            min-height: 100%;
-            max-width: 100%;
-            background: transparent;
-            align-items: center;
-            /*vertical align*/
-            justify-content: center;
-        }
-        .wrapper {
-            display: grid;
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr 1fr;
-            grid-gap: 5px;
-            max-width: 100%;
-            min-height: 100%;
-            align-items: center;
-            /*vertical align*/
-        }
-        .one {
-            margin-top: 2%;
-            margin-left: 0%;
-            display: flex;
-            grid-column: 1;
-            grid-row: 1;
-            /*vertical align*/
-            justify-content: center;
-            /*horizontal-align*/
-            align-items: center;
-            position: relative;
-            flex-wrap: wrap;
-        }
-        .four {
-            grid-column: 1;
-            grid-row: 2;
-            flex: auto;
-            position: absolute;
-            align-items: center;
-            margin-top: 90%;
-            margin-left: 20%;
-        }
-        .image {
-            margin-top: 40px;
-            position: relative;
-            height: 700px;
-            width: 700px;
-        }
-        .text-area {
-            margin-left: 30%;
-            margin-bottom: 10%;
-            align-self: center;
-            font-family: 'Cabin Sketch', cursive;
-            font-size: 0.5cm;
-            background: transparent;
-            color: wheat;
-            text-align: center;
-            box-flex: initial;
-        }
-        .back p,
-        .front p {
-            position: relative;
-            bottom: 10px;
-            left: 2px;
-            right: 2px;
-            text-align: center;
-            font-family: 'Cabin Sketch', cursive;
-            font-size: 0.6cm;
-        }
-        .back-title {
-            margin-top: 20%;
-            text-align: center;
-        }
+@media only screen and (min-width: 992px) {
+    body {
+        display: flex;
+        box-sizing: border-box;
+        padding: 0;
+        border: solid 9px wheat;
+        margin: 0;
+        background-color: black;
+        flex: 1 1 80%;
+        padding: 1% 1% 1% 1%;
+        max-height: 100%;
+        max-width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+        /*vertical align*/
+        justify-content: center;
+    }
+    .flexsec {
+        flex: 1 1 80%;
+        padding: 1% 1% 1% 1%;
+        min-height: 100%;
+        max-width: 100%;
+        background: transparent;
+        align-items: center;
+        /*vertical align*/
+        justify-content: center;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: 8fr 3fr 1fr;
+        grid-template-rows: 2fr;
+        grid-gap: 5px;
+        max-width: 100%;
+        min-height: 100%;
+        align-items: center;
+        /*vertical align*/
+        justify-content: center;
+    }
+    .one {
+        margin-top: 2%;
+        margin-left: 0%;
+        display: flex;
+        align-items: center;
+        /*vertical align*/
+        justify-content: center;
+        grid-column: 1;
+        grid-row: 1;
+        position: relative;
+        flex-wrap: wrap;
+        align-items: center;
+        /*vertical align*/
+        justify-content: center;
+    }
+    .four {
+        grid-column: 2;
+        grid-row: 1;
+        flex-wrap: wrap;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        /*vertical align*/
+        justify-content: center;
+        margin-bottom: 13%;
+    }
+    .text-area {
+        margin-top: 30%;
+        margin-right: 2%;
+        font-family: 'Cabin Sketch', cursive;
+        font-size: 0.5cm;
+        background: transparent;
+        border-radius: 5px;
+        color: wheat;
+        text-align: center;
+    }
+    .back p,
+    .front p {
+        position: relative;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-family: 'Cabin Sketch', cursive;
+        font-size: 0.5cm;
+    }
+    .back-title {
+        margin-top: 20%;
+        text-align: center;
+    }
+    .image {
+        margin-top: 10px;
+        position: relative;
+        height: 500px;
+        max-width: 500px;
+    }
+   
+    /*-------------------------------text-box-flipper---desktop------------------------------------*/
+.flip-container {
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -o-perspective: 1000;
+    perspective: 1000;
+}
 
-/*-----------------------------------------text-box-flipper-------------tab----------*/
+.flip-container:hover .flipper,
+.flip-container.hover .flipper {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.flip-container,
+.front,
+.back {
+    width: 320px;
+    height: 427px;
+}
+
+.flipper {
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 0.6s;
+    -o-transform-style: preserve-3d;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+	
+}
+
+.front,
+.back {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.back {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background: black;
+}
+.mobileclose{
+    display:inline;
+}
+.item.talk{
+    display:inline-block;;
+}
+.back{
+    margin-top:0%; 
+}
+ 
+
+}
+/*----------------------------------------------------------------Large-desktop grid------------------------------------*/
+
+@media only screen and (min-width: 1200px) {
+    body {
+        display: flex;
+        
+        padding: 0;
+        border: solid 9px wheat;
+        margin: 0;
+        background-color: black;
+        flex: 1 1 80%;
+        padding: 1% 1% 1% 1%;
+        max-height: 100%;
+        max-width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+        /*vertical align*/
+        justify-content: center;
+    }
+    .flexsec {
+        flex: 1 1 80%;
+        padding: 1% 1% 1% 1%;
+        min-height: 100%;
+        max-width: 100%;
+        background: transparent;
+        align-items: center;
+        /*vertical align*/
+        justify-content: center;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: 8fr 3fr 1fr;
+        grid-template-rows: 2fr;
+        grid-gap: 5px;
+        max-width: 100%;
+        min-height: 100%;
+        align-items: center;
+        /*vertical align*/
+        justify-content: center;
+    }
+    .one {
+        margin-top: 2%;
+        margin-left: 0%;
+        display: flex;
+        align-items: center;
+        /*vertical align*/
+        justify-content: center;
+        grid-column: 1;
+        grid-row: 1;
+        position: relative;
+        flex-wrap: wrap;
+        align-items: center;
+        /*vertical align*/
+        justify-content: center;
+    }
+    .four {
+        grid-column: 2;
+        grid-row: 1;
+        flex-wrap: wrap;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        /*vertical align*/
+        justify-content: center;
+        
+    }
+    .text-area {
+        margin-top: 30%;
+        margin-right: 2%;
+        font-family: 'Cabin Sketch', cursive;
+        font-size: 0.5cm;
+        background: transparent;
+        border-radius: 5px;
+        color: wheat;
+        text-align: center;
+    }
+    .back p,
+    .front p {
+        position: relative;
+        bottom: 10px;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-family: 'Cabin Sketch', cursive;
+        font-size: 0.5cm;
+    }
+    .back-title {
+        margin-top: 20%;
+        text-align: center;
+    }
+
+   
+/*-------------------------------------------------text-box-flipper---desktop-------------*/
 
 .flip-container {
     -webkit-perspective: 1000;
@@ -399,23 +598,11 @@
     background: black;
 }
 
-    }
 }
 
-/*------------------------------------------------------hover-effects------------------------------------*/
 
-.fa {
-    color: wheat;
-    font-size: 20px;
-}
 
-.fa-terminal:hover {
-    transform: scale3d(1.5, 1.5, 1.5);
-    font-size: 30px;
-    color: darkcyan;
-}
-
-/*----------------------------------------------button effects-------------------------------*/
+/*-------------------------------------------------------------------------button effects-------------------------------*/
 
 .menu{
     grid-row: 1;
@@ -470,3 +657,6 @@ a:hover {
     -webkit-filter: drop-shadow(70px 70px 70px wheat); /* Safari 6.0 - 9.0 */
     filter: drop-shadow(9px 9px 10px wheat);
 }
+
+
+/*----------------------------------------------------end--------------------------------------------------------------*/

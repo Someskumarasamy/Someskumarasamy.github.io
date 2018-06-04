@@ -1,8 +1,358 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|VT323');
+/*-------------------------------------------------------Mobile---------------------------------------------------------*/
+@media only screen and (max-width: 600px) {
+    html,body{
+        display:flex;
+        width: 100%;
+        height: 100%;
+        background-color:black;  
+    }
+    .desktop{
+        display:none;
+    }
+    p{
+        display:none;
+        margin: 1% 1% 1% 1%;
+        text-transform:capitalize;
+    }
+    ul , li{
+        display: none;
+    }
+    .menu1{
+        grid-row: 1;
+        grid-column: 1;
+        margin: 0;
+        padding: 0;
+        display:inline-block;
+        width: 100%;
+        background-color:black;
+        position: relative;
+        max-height: 100%;
+        overflow: auto;
+        list-style: none;
+        /*-----------------txt-----*/
+        color: black;
+        text-align: center;
+        font-family: 'Cabin Sketch', cursive;
+        font-size: .4cm;
+        text-transform: uppercase;
+    }
+    .item1,.item2{
+        background-color: wheat;
+        display: inline-flex;
+        width: 90%;
+        border: solid 1px wheat;
+        position: relative;
+        margin: 10px;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+    .item1:hover{
+        background-color: black;
+        border:none;
+        color:wheat;
+        font-size: .4cm;
+        border: solid 1px wheat;
+    }
+    .item1:hover p{
+        display: flex;
+    }
+    .item1:hover h2{
+        display: none;
+    }
+    .item1:hover ul{
+        display: inline;
+    }
+    .item1:hover li{
+        display: inline;
+    }
+    a:link, a:visited {
+        text-decoration: none;
+        color: black;
+    }
+    h3{
+        color:wheat;
+        text-decoration: none;
+    }
+    h3:hover{
+        text-decoration: underline;
+    }
+}
+/*----------------------------------------------------Large-Mobile---------------------------------------------------------*/
+@media only screen and (min-width: 600px) and (max-width:768px) {
+    html,body{
+        display:flex;
+        width: 100%;
+        height: 100%;
+        background-color:black;  
+    }
+    .desktop{
+        display:none;
+    }
+    p{
+        display:none;
+        margin: 1% 1% 1% 1%;
+        text-transform:capitalize;
+    }
+    ul , li{
+        display: none;
+    }
+    .menu1{
+        grid-row: 1;
+        grid-column: 1;
+        margin: 0;
+        padding: 0;
+        display:inline-block;
+        width: 100%;
+        background-color:black;
+        position: relative;
+        max-height: 100%;
+        overflow: auto;
+        list-style: none;
+        /*-----------------txt-----*/
+        color: black;
+        text-align: center;
+        font-family: 'Cabin Sketch', cursive;
+        font-size: .4cm;
+        text-transform: uppercase;
+    }
+    .item1 , .item2{
+        background-color: wheat;
+        display: inline-flex;
+        width: 90%;
+        border: solid 1px wheat;
+        position: relative;
+        margin: 10px;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+    .item1:hover{
+        background-color: black;
+        border:none;
+        color:wheat;
+        font-size: .4cm;
+        border: solid 1px wheat;
+    }
+    .item1:hover p{
+        display: flex;
+    }
+    .item1:hover h2{
+        display: none;
+    }
+    .item1:hover ul{
+        display: inline;
+    }
+    .item1:hover li{
+        display: inline;
+    }
+    a:link, a:visited {
+        text-decoration: none;
+        color: black;
+    }
+
+    h3{
+        color:wheat;
+        text-decoration: none;
+    }
+    h3:hover{
+        text-decoration: underline;
+    }
+
+}
+/*-----------------------------------------------------Tabs------------------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+html,body{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    background-color:black;  
+}
+.mobile{
+    display: none;
+}
+.desktop{
+    display: grid;
+    grid-template-rows:1fr;
+    grid-template-columns: 1fr 4fr; 
+    max-height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.menu{
+    grid-row: 1;
+    grid-column: 1;
+    margin: 0;
+    padding: 0;
+    display:inline-block;
+    width: 100%;
+    background-color:black;
+    position: relative;
+    max-height: 100%;
+    overflow: auto;
+    list-style: none;
+    /*-----------------txt-----*/
+    color: wheat;
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: .3cm;
+    text-transform: uppercase;
+}
+.item{
+    display: inline-block;
+    width: 70%;
+    border: solid 1px wheat;
+    position: relative;
+    margin: 10px;
+}
+.item:hover{
+    background-color: wheat;
+    border:none;
+    color:black;
+    font-size: .4cm;
+    text-decoration: underline;
+}
+.screen{
+    grid-row: 1;
+    grid-column: 2;
+    border: solid 2px wheat;
+}
+iframe{
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width:100%;
+    overflow: hidden;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: wheat;
+}
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black; 
+    border-radius: 1px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: wheat; 
+    border-radius: 1px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background:wheat; 
+}
+}
+/*--------------------------------------------------Small-Desktop------------------------------------------*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    html,body{
+        display:flex;
+        width: 100%;
+        height: 100%;
+        background-color:black;  
+    }
+    .mobile{
+        display: none;
+    }
+    .desktop{
+        display: grid;
+        grid-template-rows:1fr;
+        grid-template-columns: 1fr 3fr; 
+        max-height: 100%;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .menu{
+        grid-row: 1;
+        grid-column: 1;
+        margin: 0;
+        padding: 0;
+        display:inline-block;
+        width: 100%;
+        background-color:black;
+        position: relative;
+        max-height: 100%;
+        overflow: auto;
+        list-style: none;
+        /*-----------------txt-----*/
+        color: wheat;
+        text-align: center;
+        font-family: 'Cabin Sketch', cursive;
+        font-size: .5cm;
+        text-transform: uppercase;
+    }
+    .item{
+        display: inline-block;
+        width: 70%;
+        border: solid 1px wheat;
+        position: relative;
+        margin: 10px;
+    }
+    .item:hover{
+        background-color: wheat;
+        border:none;
+        color:black;
+        font-size: .7cm;
+        text-decoration: underline;
+    }
+    .screen{
+        grid-row: 1;
+        grid-column: 2;
+        border: solid 2px wheat;
+    }
+    iframe{
+        display: inline-block;
+        position: relative;
+        height: 100%;
+        width:100%;
+        overflow: hidden;
+    }
+    
+    a:link, a:visited {
+        text-decoration: none;
+        color: wheat;
+    }
+    a:hover {
+        text-decoration: underline;
+        color: black;
+    }
+    ::-webkit-scrollbar {
+        width: 1px;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px black; 
+        border-radius: 1px;
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: wheat; 
+        border-radius: 1px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background:wheat; 
+    }
+    }
 
 
-/*-----------------------------------------------------Desktop------------------------------------------*/
-@media only screen and (min-width: 768px) {
+/*-------------------------------------------------Large-Desktop------------------------------------------*/
+@media only screen and (min-width: 1200px) {
 html,body{
     display:flex;
     width: 100%;
@@ -96,20 +446,3 @@ a:hover {
 }
 }
 /*-------------------------------------------------------Mobile---------------------------------------------------------*/
-@media only screen and (max-width: 768px) {
-    html,body{
-        display:flex;
-        width: 100%;
-        height: 100%;
-        background-color:black;  
-    }
-    .desktop{
-        display:none;
-    }
-    h2{
-        padding-top:35%; 
-        color: wheat;
-        text-align: center;
-    }
-
-}
