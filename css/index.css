@@ -461,7 +461,7 @@
         background-color: black;
         flex: 1 1 80%;
         padding: 1% 1% 1% 1%;
-        max-height: 100%;
+        min-height: 100%;
         max-width: 100%;
         flex-wrap: wrap;
         align-items: center;
@@ -517,7 +517,7 @@
         
     }
     .text-area {
-        margin-top: 30%;
+        margin-top: 36%;
         margin-right: 2%;
         font-family: 'Cabin Sketch', cursive;
         font-size: 0.5cm;
