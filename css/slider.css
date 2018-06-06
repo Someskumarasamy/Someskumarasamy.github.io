@@ -358,3 +358,6 @@
     border-color: transparent transparent transparent red;
     margin-right: 20px;
 }
+.slide{
+    cursor: pointer;
+}
