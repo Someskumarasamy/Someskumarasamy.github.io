@@ -651,6 +651,37 @@ a:hover {
     -webkit-filter: drop-shadow(70px 70px 70px wheat); /* Safari 6.0 - 9.0 */
     filter: drop-shadow(9px 9px 10px wheat);
 }
+#alert,#alert1 {
+    padding: 20px;
+    background-color:black;
+    color: wheat;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 0.5cm;
+}
+#alert{
+    border: solid 5px wheat;
+}
+.closebtn {
+    margin-left: 15px;
+    color: rgb(122, 184, 241);
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
 
+.closebtn:hover {
+    color:white;
+}
+#alert2{
+    padding: 20px;
+    background-color:grey;
+    color: wheat;
+    font-family: 'Cabin Sketch', cursive;
+    font-size: 0.5cm;
+    text-align: center;
+}
 
 /*----------------------------------------------------end--------------------------------------------------------------*/

@@ -37,14 +37,38 @@
     <meta name="keywords" content="somes,someskumar,someskumarasamy,somesh,someshkumar,someshkumarasamy">
     <meta name="author" content="Somes Kumar K">
     <!--meta tags-->
+    <style>
+ 
+            </style>
     <link rel="stylesheet" type="text/css" media="screen" href="./css/index.css" />
 </head>
 
-<body>
+<body onload="myFunction()">
     <div class="flexsec">
         <div class="wrapper">
             <div class="one">
+                    <div id="alert">
+                            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                           I am Currently available for hire...
+                          </div>
+                    <div id="alert1">
+                            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+                            <ul class="menu">
+            
+                                    <li class="item home">
+                                      <a href="tel:+917598457998">
+                                        <h2>Give Me a Ring</h2>
+                                      </a>
+                                    </li>
+                                    <li class="item home">
+                                            <a href="mailto:someshkumarasamy@gmail.com" target="_blank">
+                                              <h2>Drop a Mail</h2>
+                                            </a>
+                                          </li>
+                                  </ul>
+                          </div>
                 <img class="image" data-toggle="tooltip" title="Somes Kumar K" src="./images/cover.png" alt="Cover">
+                
             </div>
             <div class="four">
                 <div class="text-area">
@@ -76,12 +100,12 @@
                                             </a>
                                         </li>
                                         <li class="item current">
-                                            <a href="status.html">
+                                            <a href="#"onclick="showstaus();return false;">
                                                 <h2>Check My Status</h2>
                                             </a>
                                         </li>
                                         <li class="item contact">
-                                            <a href="contact.html" target="popup" onclick="window.open('contact.html','popup','width=300,height=300'); return false;">
+                                                <a href="#"onclick="showstaus1();return false;">
                                                 <h2>Contact Me</h2>
                                             </a>
                                         </li>
@@ -96,12 +120,51 @@
                 </div>
             </div>
         </div>
+        <div id="alert2">
+                <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+               <p> View in Chrome browser and Experience full features in Desktop.</p> 
+              </div>
     </div>
+    
     <script>
+    function myFunction(){
+            var x = document.getElementById("alert");
+            var x1 = document.getElementById("alert1");
+            x.style.display = "none";
+            x1.style.display = "none";
+            var x2 = document.getElementById("alert2");
+    x2.style.display = "block";
+        }
     function alertme(){
         alert("Sorry, this feature is under construction.\n Ok to continue..");
         window.open("portfolio.html");
     }
+    function showstaus(){
+    var x2 = document.getElementById("alert2");
+    x2.style.display = "none";
+   var x = document.getElementById("alert");
+   var x1 = document.getElementById("alert1");
+   if (x.style.display === "none") {
+       x.style.display = "block";
+       x1.style.display = "none";
+   } else {
+       x.style.display = "none";
+   }
+   }
+   function showstaus1(){
+    var x2 = document.getElementById("alert2");
+    x2.style.display = "none";
+    var x = document.getElementById("alert");
+    var x1 = document.getElementById("alert1");
+    if(x1.style.display = "none"){
+    x.style.display = "none";
+    x1.style.display = "block";
+   }
+   else{
+    x1.style.display = "none";
+   }
+   }
+   
     </script>
 </body>
 
