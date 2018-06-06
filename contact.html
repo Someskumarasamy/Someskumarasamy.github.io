@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+       body {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        background-color: black;
+        flex: 1 1 80%;
+        padding: 1% 1% 1% 1%;
+        min-height: 100%;
+        max-width: 100%;
+        flex-wrap: no-wrap;
+        align-items: center;
+        /*vertical align*/
+        justify-content: center;
+    }
+    .menu{
+    margin: 0;
+    padding: 0;
+    display:inline-block;
+    width: 100%;
+    background-color:black;
+    position: relative;
+    height: 100%;
+    overflow: auto;
+    list-style: none;
+    /*-----------------txt-----*/
+    color: wheat;
+    text-align: center;
+    font-family: 'Cabin Sketch', cursive;
+    text-transform: uppercase;
+    margin-top: 15%;
+    
+}
+.item h2{
+    font-size: .5cm;
+    text-align: center;
+    padding-bottom:4px; 
+}
+.item{
+    display: inline-block;
+    width: 70%;
+    border: solid 1px wheat;
+    position: relative;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+.item:hover{
+    background-color: wheat;
+    border:none;
+    color:black;
+    font-size: .7cm;
+    text-decoration: underline;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: wheat;
+}
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+</style>
+</head>
+<body>
+        <ul class="menu">
+
+                <li class="item home">
+                  <a href="tel:+917598457998">
+                    <h2>Give Me a Ring</h2>
+                  </a>
+                </li>
+                <li class="item home">
+                        <a href="mailto:someshkumarasamy@gmail.com">
+                          <h2>Drop a Mail</h2>
+                        </a>
+                      </li>
+              </ul>
+</body>
+</html>
