@@ -295,7 +295,7 @@
         padding: 1% 1% 1% 1%;
         max-height: 100%;
         max-width: 100%;
-        flex-wrap: wrap;
+        flex-wrap: no-wrap;
         align-items: center;
         /*vertical align*/
         justify-content: center;
@@ -457,7 +457,7 @@
         padding: 1% 1% 1% 1%;
         min-height: 100%;
         max-width: 100%;
-        flex-wrap: wrap;
+        flex-wrap: no-wrap;
         align-items: center;
         /*vertical align*/
         justify-content: center;
