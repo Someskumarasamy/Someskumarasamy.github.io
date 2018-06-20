@@ -17,6 +17,7 @@
     }
     ul , li{
         display: none;
+        align-items: center;
     }
     .menu1{
         grid-row: 1;
