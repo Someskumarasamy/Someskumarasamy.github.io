@@ -1,1 +1,612 @@
-@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch|VT323');/*----------------------------------------------------start-------------------------------------------------------------*//*auth: Somes Kumar K.*//*----------------------------------------------------------------mobile-grid-------------------------------------------*/@media only screen and (max-width: 600px){body{display: flex; padding: 0; margin: 0; background-color: black; padding: 1% 1% 1% 1%; min-height: 100%; min-width: 100%; flex-wrap: wrap; align-items: center; /*vertical align*/ justify-content: center;}.flexsec{display: inline-block; padding: 1% 1% 1% 1%; min-height: 100%; max-width: 100%; background: transparent; align-items: center; /*vertical align*/ justify-content: center;}.wrapper{display: grid; grid-template-columns: 1fr; grid-template-rows: 2fr; grid-gap: 5px; max-width: 100%; min-height: 100%; align-items: center; /*vertical align*/ justify-content: center;}.one{margin-top: 2%; margin-right: 5%; display: inline-flex; grid-column: 1; grid-row: 1; /*vertical align*/ justify-content: center; /*horizontal-align*/ align-items: center; position: relative; flex-wrap: wrap; max-width: 100%; margin-bottom: 1%;}.four{display: inline-flex; grid-column: 1; flex: auto; grid-row: 2; position: relative; align-items: center; justify-content: center; box-sizing:content-box;}.image{margin-top: 10px; position: relative; height: 380px; max-width: 380px;}.text-area{display: inline-fex; width: 100%; align-self: center; font-family: 'Cabin Sketch', cursive; font-size: 0.5cm; background: transparent; color: wheat; text-align: center; box-flex: initial; padding-right:12%; padding-left:15%;}.mobileclose{display: none;}.item.talk{display: none;}.back{margin-top:5%;}}/*-------------------------------------------------------------Large Mobiles--------------------------------------------*/@media only screen and (min-width: 600px){body{display: flex; padding: 0; margin: 0; background-color: black; padding: 1% 1% 1% 1%; min-height: 100%; min-width: 100%; flex-wrap: wrap; align-items: center; /*vertical align*/ justify-content: center;}.flexsec{display: inline-block; padding: 1% 1% 1% 1%; min-height: 100%; max-width: 100%; background: transparent; align-items: center; /*vertical align*/ justify-content: center;}.wrapper{display: grid; grid-template-columns: 1fr; grid-template-rows: 2fr; grid-gap: 5px; max-width: 100%; min-height: 100%; align-items: center; /*vertical align*/ justify-content: center;}.one{margin-top: 2%; margin-right: 5%; display: inline-flex; grid-column: 1; grid-row: 1; /*vertical align*/ justify-content: center; /*horizontal-align*/ align-items: center; position: relative; flex-wrap: wrap; max-width: 100%; margin-bottom: 1%;}.four{display: inline-flex; grid-column: 1; flex: auto; grid-row: 2; position: relative; align-items: center; justify-content: center; box-sizing:content-box;}.image{margin-top: 10px; position: relative; height: 380px; max-width: 380px;}.text-area{display: inline-fex; width: 100%; align-self: center; font-family: 'Cabin Sketch', cursive; font-size: 0.5cm; background: transparent; color: wheat; text-align: center; box-flex: initial; padding-right:12%; padding-left:12%;}.mobileclose{display: none;}.item.talk{display: none;}.back{margin-top:5%;}}/*--------------------------------------------------------------------tab-display--------------------------------------*/@media only screen and (min-width: 768px){body{display: flex; box-sizing: border-box; padding: 0; margin: 0; background-color: black; padding: 1% 1% 1% 1%; min-height: 100%; min-width: 100%; flex-wrap: wrap; align-items: center; /*vertical align*/ justify-content: center;}.flexsec{display: inline-block; padding: 1% 1% 1% 1%; min-height: 100%; max-width: 100%; background: transparent; align-items: center; /*vertical align*/ justify-content: center;}.wrapper{display: grid; grid-template-columns: 1fr; grid-template-rows: 2fr; grid-gap: 5px; max-width: 100%; min-height: 100%; align-items: center; /*vertical align*/ justify-content: center;}.one{margin-top: 2%; margin-right: 5%; display: inline-flex; grid-column: 1; grid-row: 1; /*vertical align*/ justify-content: center; /*horizontal-align*/ align-items: center; position: relative; flex-wrap: wrap; max-width: 100%; margin-bottom: 1%;}.four{display: inline-flex; grid-column: 1; flex: auto; grid-row: 2; position: relative; align-items: center; justify-content: center; box-sizing:content-box;}.image{margin-top: 10px; position: relative; height: 380px; max-width: 380px;}.text-area{display: inline-fex; width: 100%; align-self: center; font-family: 'Cabin Sketch', cursive; font-size: 0.5cm; background: transparent; color: wheat; text-align: center; box-flex: initial; padding-right:12%; padding-left:12%;}.mobileclose{display: none;}.item.talk{display: none;}.back{margin-top:5%;}}/*---------------------------------------------------------------desktop grid--------------------------------------------*/@media only screen and (min-width: 992px){body{display: flex; padding: 0; margin: 0; background-color: black; flex: 1 1 80%; padding: 1% 1% 1% 1%; max-height: 100%; max-width: 100%; flex-wrap: no-wrap; align-items: center; /*vertical align*/ justify-content: center;}.flexsec{flex: 1 1 80%; padding: 1% 1% 1% 1%; min-height: 100%; max-width: 100%; background: transparent; align-items: center; /*vertical align*/ justify-content: center;}.wrapper{display: grid; grid-template-columns: 8fr 3fr 1fr; grid-template-rows: 2fr; grid-gap: 5px; max-width: 100%; min-height: 100%; align-items: center; /*vertical align*/ justify-content: center;}.one{margin-top: 2%; margin-left: 0%; display: flex; align-items: center; /*vertical align*/ justify-content: center; grid-column: 1; grid-row: 1; position: relative; flex-wrap: wrap; align-items: center; /*vertical align*/ justify-content: center;}.four{grid-column: 2; grid-row: 1; flex-wrap: wrap; position: relative; align-items: center; justify-content: center; align-items: center; /*vertical align*/ justify-content: center; margin-bottom: 13%;}.text-area{margin-top: 30%; margin-right: 2%; font-family: 'Cabin Sketch', cursive; font-size: 0.5cm; background: transparent; border-radius: 5px; color: wheat; text-align: center;}.back p, .front p{position: relative; bottom: 10px; left: 0; right: 0; text-align: center; font-family: 'Cabin Sketch', cursive; font-size: 0.5cm;}.back-title{margin-top: 20%; text-align: center;}.image{margin-top: 10px; position: relative; height: 500px; max-width: 500px;}/*-------------------------------text-box-flipper---desktop------------------------------------*/.flip-container{-webkit-perspective: 1000; -moz-perspective: 1000; -o-perspective: 1000; perspective: 1000;}.flip-container:hover .flipper,.flip-container.hover .flipper{-webkit-transform: rotateY(180deg); -moz-transform: rotateY(180deg); -o-transform: rotateY(180deg); transform: rotateY(180deg);}.flip-container,.front,.back{width: 320px; height: 427px;}.flipper{-webkit-transition: 0.6s; -webkit-transform-style: preserve-3d; -moz-transition: 0.6s; -moz-transform-style: preserve-3d; -o-transition: 0.6s; -o-transform-style: preserve-3d; transition: 0.6s; transform-style: preserve-3d; position: relative;}.front,.back{-webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -o-backface-visibility: hidden; backface-visibility: hidden; position: absolute; top: 0; left: 0;}.back{-webkit-transform: rotateY(180deg); -moz-transform: rotateY(180deg); -o-transform: rotateY(180deg); transform: rotateY(180deg); background: black;}.mobileclose{display:inline;}.item.talk{display:inline-block;;}.back{margin-top:0%;}}/*----------------------------------------------------------------Large-desktop grid------------------------------------*/@media only screen and (min-width: 1200px){body{display: flex; padding: 0; margin: 0; background-color: black; flex: 1 1 80%; padding: 1% 1% 1% 1%; min-height: 100%; max-width: 100%; flex-wrap: no-wrap; align-items: center; /*vertical align*/ justify-content: center;}.flexsec{flex: 1 1 80%; padding: 1% 1% 1% 1%; min-height: 100%; max-width: 100%; background: transparent; align-items: center; /*vertical align*/ justify-content: center;}.wrapper{display: grid; grid-template-columns: 8fr 3fr 1fr; grid-template-rows: 2fr; grid-gap: 5px; max-width: 100%; min-height: 100%; align-items: center; /*vertical align*/ justify-content: center;}.one{margin-top: 2%; margin-left: 0%; display: flex; align-items: center; /*vertical align*/ justify-content: center; grid-column: 1; grid-row: 1; position: relative; flex-wrap: wrap; align-items: center; /*vertical align*/ justify-content: center;}.four{grid-column: 2; grid-row: 1; flex-wrap: wrap; position: relative; align-items: center; justify-content: center; align-items: center; /*vertical align*/ justify-content: center;}.text-area{margin-top: 36%; margin-right: 2%; font-family: 'Cabin Sketch', cursive; font-size: 0.5cm; background: transparent; border-radius: 5px; color: wheat; text-align: center;}.back p, .front p{position: relative; bottom: 10px; left: 0; right: 0; text-align: center; font-family: 'Cabin Sketch', cursive; font-size: 0.5cm;}.back-title{margin-top: 20%; text-align: center;}/*-------------------------------------------------text-box-flipper---desktop-------------*/.flip-container{-webkit-perspective: 1000; -moz-perspective: 1000; -o-perspective: 1000; perspective: 1000;}.flip-container:hover .flipper,.flip-container.hover .flipper{-webkit-transform: rotateY(180deg); -moz-transform: rotateY(180deg); -o-transform: rotateY(180deg); transform: rotateY(180deg);}.flip-container,.front,.back{width: 320px; height: 427px;}.flipper{-webkit-transition: 0.6s; -webkit-transform-style: preserve-3d; -moz-transition: 0.6s; -moz-transform-style: preserve-3d; -o-transition: 0.6s; -o-transform-style: preserve-3d; transition: 0.6s; transform-style: preserve-3d; position: relative;}.front,.back{-webkit-backface-visibility: hidden; -moz-backface-visibility: hidden; -o-backface-visibility: hidden; backface-visibility: hidden; position: absolute; top: 0; left: 0;}.back{-webkit-transform: rotateY(180deg); -moz-transform: rotateY(180deg); -o-transform: rotateY(180deg); transform: rotateY(180deg); background: black;}}/*-------------------------------------------------------------------------button effects-------------------------------*/.menu{grid-row: 1; grid-column: 1; margin: 0; padding: 0; display:inline-block; width: 100%; background-color:black; position: relative; height: 100%; overflow: auto; list-style: none; /*-----------------txt-----*/ color: wheat; text-align: center; font-family: 'Cabin Sketch', cursive; text-transform: uppercase;}.item h2{font-size: .5cm; text-align: center; padding-bottom:4px;}.item{display: inline-block; width: 70%; border: solid 1px wheat; position: relative; margin: 10px; border-radius: 15px; text-align: center;}.item:hover{background-color: wheat; border:none; color:black; font-size: .7cm; text-decoration: underline;}a:link, a:visited{text-decoration: none; color: wheat;}a:hover{text-decoration: underline; color: black;}/*-----------------------------------------------hover-image------------------------------*/ .image:hover{-webkit-filter: drop-shadow(70px 70px 70px wheat); /* Safari 6.0 - 9.0 */ filter: drop-shadow(9px 9px 10px wheat);}#alert,#alert1{padding: 20px; background-color:black; color: wheat; font-family: 'Cabin Sketch', cursive; font-size: 0.5cm;}#alert{border: solid 5px wheat;}.closebtn{margin-left: 15px; color: rgb(122, 184, 241); font-weight: bold; float: right; font-size: 22px; line-height: 20px; cursor: pointer; transition: 0.3s;}.closebtn:hover{color:white;}#alert2{padding: 20px; background-color:grey; color: wheat; font-family: 'Cabin Sketch', cursive; font-size: 0.5cm; text-align: center;}.item{cursor: pointer;}/*----------------------------------------------------end--------------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Cabin+Sketch|VT323"); /*----------------------------------------------------start-------------------------------------------------------------*/ /*auth: Somes Kumar K.*/ /*----------------------------------------------------------------mobile-grid-------------------------------------------*/
+@media only screen and (max-width: 600px) {
+  body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: #484848;
+    padding: 1% 1% 1% 1%;
+    min-height: 100%;
+    min-width: 100%;
+    flex-wrap: wrap;
+    align-items: center; /*vertical align*/
+    justify-content: center;
+  }
+  .flexsec {
+    display: inline-block;
+    padding: 1% 1% 1% 1%;
+    min-height: 100%;
+    max-width: 100%;
+    background: transparent;
+    align-items: center; /*vertical align*/
+    justify-content: center;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    grid-gap: 5px;
+    max-width: 100%;
+    min-height: 100%;
+    align-items: center; /*vertical align*/
+    justify-content: center;
+  }
+  .one {
+    margin-top: 2%;
+    margin-right: 5%;
+    display: inline-flex;
+    grid-column: 1;
+    grid-row: 1; /*vertical align*/
+    justify-content: center; /*horizontal-align*/
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-bottom: 1%;
+  }
+  .four {
+    display: inline-flex;
+    grid-column: 1;
+    flex: auto;
+    grid-row: 2;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+  }
+  .image {
+    margin-top: 10px;
+    position: relative;
+    height: 380px;
+    max-width: 380px;
+  }
+  .text-area {
+    display: inline-fex;
+    width: 100%;
+    align-self: center;
+    font-family: "Cabin Sketch", cursive;
+    font-size: 0.5cm;
+    background: transparent;
+    color: wheat;
+    text-align: center;
+    box-flex: initial;
+    padding-right: 12%;
+    padding-left: 15%;
+  }
+  .mobileclose {
+    display: none;
+  }
+  .item.talk {
+    display: none;
+  }
+  .back {
+    margin-top: 5%;
+  }
+} /*-------------------------------------------------------------Large Mobiles--------------------------------------------*/
+@media only screen and (min-width: 600px) {
+  body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: #484848;
+    padding: 1% 1% 1% 1%;
+    min-height: 100%;
+    min-width: 100%;
+    flex-wrap: wrap;
+    align-items: center; /*vertical align*/
+    justify-content: center;
+  }
+  .flexsec {
+    display: inline-block;
+    padding: 1% 1% 1% 1%;
+    min-height: 100%;
+    max-width: 100%;
+    background: transparent;
+    align-items: center; /*vertical align*/
+    justify-content: center;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    grid-gap: 5px;
+    max-width: 100%;
+    min-height: 100%;
+    align-items: center; /*vertical align*/
+    justify-content: center;
+  }
+  .one {
+    margin-top: 2%;
+    margin-right: 5%;
+    display: inline-flex;
+    grid-column: 1;
+    grid-row: 1; /*vertical align*/
+    justify-content: center; /*horizontal-align*/
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-bottom: 1%;
+  }
+  .four {
+    display: inline-flex;
+    grid-column: 1;
+    flex: auto;
+    grid-row: 2;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+  }
+  .image {
+    margin-top: 10px;
+    position: relative;
+    height: 380px;
+    max-width: 380px;
+  }
+  .text-area {
+    display: inline-fex;
+    width: 100%;
+    align-self: center;
+    font-family: "Cabin Sketch", cursive;
+    font-size: 0.5cm;
+    background: transparent;
+    color: wheat;
+    text-align: center;
+    box-flex: initial;
+    padding-right: 12%;
+    padding-left: 12%;
+  }
+  .mobileclose {
+    display: none;
+  }
+  .item.talk {
+    display: none;
+  }
+  .back {
+    margin-top: 5%;
+  }
+} /*--------------------------------------------------------------------tab-display--------------------------------------*/
+@media only screen and (min-width: 768px) {
+  body {
+    display: flex;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #484848;
+    padding: 1% 1% 1% 1%;
+    min-height: 100%;
+    min-width: 100%;
+    flex-wrap: wrap;
+    align-items: center; /*vertical align*/
+    justify-content: center;
+  }
+  .flexsec {
+    display: inline-block;
+    padding: 1% 1% 1% 1%;
+    min-height: 100%;
+    max-width: 100%;
+    background: transparent;
+    align-items: center; /*vertical align*/
+    justify-content: center;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+    grid-gap: 5px;
+    max-width: 100%;
+    min-height: 100%;
+    align-items: center; /*vertical align*/
+    justify-content: center;
+  }
+  .one {
+    margin-top: 2%;
+    margin-right: 5%;
+    display: inline-flex;
+    grid-column: 1;
+    grid-row: 1; /*vertical align*/
+    justify-content: center; /*horizontal-align*/
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-bottom: 1%;
+  }
+  .four {
+    display: inline-flex;
+    grid-column: 1;
+    flex: auto;
+    grid-row: 2;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+  }
+  .image {
+    margin-top: 10px;
+    position: relative;
+    height: 380px;
+    max-width: 380px;
+  }
+  .text-area {
+    display: inline-fex;
+    width: 100%;
+    align-self: center;
+    font-family: "Cabin Sketch", cursive;
+    font-size: 0.5cm;
+    background: transparent;
+    color: wheat;
+    text-align: center;
+    box-flex: initial;
+    padding-right: 12%;
+    padding-left: 12%;
+  }
+  .mobileclose {
+    display: none;
+  }
+  .item.talk {
+    display: none;
+  }
+  .back {
+    margin-top: 5%;
+  }
+} /*---------------------------------------------------------------desktop grid--------------------------------------------*/
+@media only screen and (min-width: 992px) {
+  body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: #484848;
+    flex: 1 1 80%;
+    padding: 1% 1% 1% 1%;
+    max-height: 100%;
+    max-width: 100%;
+    flex-wrap: no-wrap;
+    align-items: center; /*vertical align*/
+    justify-content: center;
+  }
+  .flexsec {
+    flex: 1 1 80%;
+    padding: 1% 1% 1% 1%;
+    min-height: 100%;
+    max-width: 100%;
+    background: transparent;
+    align-items: center; /*vertical align*/
+    justify-content: center;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 8fr 3fr 1fr;
+    grid-template-rows: 2fr;
+    grid-gap: 5px;
+    max-width: 100%;
+    min-height: 100%;
+    align-items: center; /*vertical align*/
+    justify-content: center;
+  }
+  .one {
+    margin-top: 2%;
+    margin-left: 0%;
+    display: flex;
+    align-items: center; /*vertical align*/
+    justify-content: center;
+    grid-column: 1;
+    grid-row: 1;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center; /*vertical align*/
+    justify-content: center;
+  }
+  .four {
+    grid-column: 2;
+    grid-row: 1;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    align-items: center; /*vertical align*/
+    justify-content: center;
+    margin-bottom: 13%;
+  }
+  .text-area {
+    margin-top: 30%;
+    margin-right: 2%;
+    font-family: "Cabin Sketch", cursive;
+    font-size: 0.5cm;
+    background: transparent;
+    border-radius: 5px;
+    color: wheat;
+    text-align: center;
+  }
+  .back p,
+  .front p {
+    position: relative;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: "Cabin Sketch", cursive;
+    font-size: 0.5cm;
+  }
+  .back-title {
+    margin-top: 20%;
+    text-align: center;
+  }
+  .image {
+    margin-top: 10px;
+    position: relative;
+    height: 500px;
+    max-width: 500px;
+  } /*-------------------------------text-box-flipper---desktop------------------------------------*/
+  .flip-container {
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -o-perspective: 1000;
+    perspective: 1000;
+  }
+  .flip-container:hover .flipper,
+  .flip-container.hover .flipper {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+  .flip-container,
+  .front,
+  .back {
+    width: 320px;
+    height: 427px;
+  }
+  .flipper {
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 0.6s;
+    -o-transform-style: preserve-3d;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+  }
+  .front,
+  .back {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .back {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background: #484848;
+  }
+  .mobileclose {
+    display: inline;
+  }
+  .item.talk {
+    display: inline-block;
+  }
+  .back {
+    margin-top: 0%;
+  }
+} /*----------------------------------------------------------------Large-desktop grid------------------------------------*/
+@media only screen and (min-width: 1200px) {
+  body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: #484848;
+    flex: 1 1 80%;
+    padding: 1% 1% 1% 1%;
+    min-height: 100%;
+    max-width: 100%;
+    flex-wrap: no-wrap;
+    align-items: center; /*vertical align*/
+    justify-content: center;
+  }
+  .flexsec {
+    flex: 1 1 80%;
+    padding: 1% 1% 1% 1%;
+    min-height: 100%;
+    max-width: 100%;
+    background: transparent;
+    align-items: center; /*vertical align*/
+    justify-content: center;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 8fr 3fr 1fr;
+    grid-template-rows: 2fr;
+    grid-gap: 5px;
+    max-width: 100%;
+    min-height: 100%;
+    align-items: center; /*vertical align*/
+    justify-content: center;
+  }
+  .one {
+    margin-top: 2%;
+    margin-left: 0%;
+    display: flex;
+    align-items: center; /*vertical align*/
+    justify-content: center;
+    grid-column: 1;
+    grid-row: 1;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center; /*vertical align*/
+    justify-content: center;
+  }
+  .four {
+    grid-column: 2;
+    grid-row: 1;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    align-items: center; /*vertical align*/
+    justify-content: center;
+  }
+  .text-area {
+    margin-top: 36%;
+    margin-right: 2%;
+    font-family: "Cabin Sketch", cursive;
+    font-size: 0.5cm;
+    background: transparent;
+    border-radius: 5px;
+    color: wheat;
+    text-align: center;
+  }
+  .back p,
+  .front p {
+    position: relative;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: "Cabin Sketch", cursive;
+    font-size: 0.5cm;
+  }
+  .back-title {
+    margin-top: 20%;
+    text-align: center;
+  } /*-------------------------------------------------text-box-flipper---desktop-------------*/
+  .flip-container {
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -o-perspective: 1000;
+    perspective: 1000;
+  }
+  .flip-container:hover .flipper,
+  .flip-container.hover .flipper {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+  .flip-container,
+  .front,
+  .back {
+    width: 320px;
+    height: 427px;
+  }
+  .flipper {
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 0.6s;
+    -o-transform-style: preserve-3d;
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+  }
+  .front,
+  .back {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .back {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background: #484848;
+  }
+} /*-------------------------------------------------------------------------button effects-------------------------------*/
+.menu {
+  grid-row: 1;
+  grid-column: 1;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 100%;
+  background-color: #484848;
+  position: relative;
+  height: 100%;
+  overflow: auto;
+  list-style: none; /*-----------------txt-----*/
+  color: wheat;
+  text-align: center;
+  font-family: "Cabin Sketch", cursive;
+  text-transform: uppercase;
+}
+.item h2 {
+  font-size: 0.5cm;
+  text-align: center;
+  padding-bottom: 4px;
+}
+.item {
+  display: inline-block;
+  width: 70%;
+  border: solid 1px wheat;
+  position: relative;
+  margin: 10px;
+  border-radius: 15px;
+  text-align: center;
+}
+.item:hover {
+  background-color: wheat;
+  border: none;
+  color: #484848;
+  font-size: 0.7cm;
+  text-decoration: underline;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: wheat;
+}
+a:hover {
+  text-decoration: underline;
+  color: #484848;
+} /*-----------------------------------------------hover-image------------------------------*/
+.image:hover {
+  -webkit-filter: drop-shadow(70px 70px 70px wheat); /* Safari 6.0 - 9.0 */
+  filter: drop-shadow(9px 9px 10px wheat);
+}
+#alert,
+#alert1 {
+  padding: 20px;
+  background-color: #484848;
+  color: wheat;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 0.5cm;
+}
+#alert {
+  border: solid 5px wheat;
+}
+.closebtn {
+  margin-left: 15px;
+  color: rgb(122, 184, 241);
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.closebtn:hover {
+  color: white;
+}
+#alert2 {
+  padding: 20px;
+  background-color: grey;
+  color: wheat;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 0.5cm;
+  text-align: center;
+}
+.item {
+  cursor: pointer;
+} /*----------------------------------------------------end--------------------------------------------------------------*/
